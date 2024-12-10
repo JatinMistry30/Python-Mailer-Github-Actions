@@ -1,6 +1,6 @@
 import smtplib
-from email.mine.text import MIMEText
-from email.mine.multipart import MIMEMultipart
+from email.mime.text import MIMEText
+from email.mime.multipart import MIMEMultipart
 import os
 
 
