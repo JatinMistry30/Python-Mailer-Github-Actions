@@ -1,6 +1,9 @@
 name: 'Send email after workflow'
 
 on:
+    push:
+        branches:
+            - master
     workflow_dispatch:
 
 jobs:
